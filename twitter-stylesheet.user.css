@@ -59,7 +59,7 @@
         margin: 0;
     }*/
     
-    div[data-testid='tweet'] > div:nth-child(2) > div > div > div > div {
+    div[data-testid='tweet'] > div:nth-child(2) > div > div > div > div, article[data-testid='tweetDetail'] > div:nth-last-child(4) > div > div {
         border-radius: 5px !important;
     }
     
